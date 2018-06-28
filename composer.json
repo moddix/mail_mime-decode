@@ -4,7 +4,7 @@
     "homepage": "https://pear.php.net/package/Mail_mimeDecode/",
     "license": "BSD-3-Clause",
     "require": {
-        "pear/mail_mime": "^1.10"
+        "pear/pear-core-minimal": "~1"
     },
     "authors": [
         {
@@ -17,5 +17,8 @@
             "Mail": "./"
         }
     },
+    "include-path": [
+        "./"
+    ],
     "minimum-stability": "dev"
 }
